@@ -32,7 +32,7 @@ class SizeChange(models.Model):
                                  validators=[validate_file_extension])
     size_name = models.CharField(verbose_name='New filename', default='', max_length=20)
     size_date_added = models.DateTimeField(auto_now_add=True)
-    new_size = models.IntegerField(help_text="kb", default=500)
+    new_size = models.IntegerField(help_text="kb. Minimum value is 50kb ", default=500, validators=[MinValueValidator(50)])
 
 
 class SizeChangeStats(models.Model):
