@@ -1,8 +1,8 @@
 # jpg2gif<br />
 Demo at: http://jpg2gif.vipserv.org/<br />
 Django project that contains two functionalities:<br />
-<br />
-1) 'Jpg2gif' helps with converting single or multiple jpg images into gif animation.<br />
+
+1)'Jpg2gif' helps with converting single or multiple jpg images into gif animation.<br />
 Let's user:<br />
 -browse for files<br />
 -set name<br />
@@ -10,7 +10,7 @@ Let's user:<br />
 -set gif size (automatically rescales with width size)<br />
 -set speed of animation (time period between frames)<br />
 <br />
-2) 'Decrease image size' helps with converting image to certain filesize. For example if Your image is to large for some internet<br />
+2)'Decrease image size' helps with converting image to certain filesize. For example if Your image is to large for some internet<br />
 apps (sending pictures with email, forum avatars, etc.)<br />
 Let's user:<br />
 -browse for file<br />
