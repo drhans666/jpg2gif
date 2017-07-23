@@ -1,0 +1,27 @@
+{% extends "loader/base.html" %}
+
+{% block content %}
+
+
+<html>
+<head>
+</head>
+<body>
+
+<div class="container">
+    <p class="lead">Choose JPG files and convert them to GIF movie.
+        <br> Images will be played in alphabetical order.</p>
+
+    <div>
+        <form action="/loader/" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{  form.as_p }}
+            <p>Upload may take a while or two. Keep calm</p>
+            <input type="submit" value="Upload" style="color:black" />
+        </form>
+    </div>
+</div> <!-- /container -->
+
+</body>
+</html>
+{% endblock content %}

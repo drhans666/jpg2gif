@@ -1,0 +1,29 @@
+{% extends "loader/base.html" %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <p class="lead">{{ text }}</p>
+
+        <div>
+            <form action="/loader:drop_size" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{  size_form.as_p }}
+                <input type="submit" value="Upload" style="color:black" />
+            </form>
+        </div>
+    </div> <!-- /container -->
+
+</body>
+</html>
+
+{% endblock content %}
+
