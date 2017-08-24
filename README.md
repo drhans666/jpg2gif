@@ -1,5 +1,7 @@
 # jpg2gif<br />
 Demo at: http://jpg2gif.vipserv.org/<br />
+By now i think whole app is written VERY poorly(especially models usage). Dont do it this way<br />
+Suprisingly it works well <br />
 Django project that contains two functionalities:<br />
 
 1)'Jpg2gif' helps with converting single or multiple jpg images into gif animation.<br />
