@@ -4,4 +4,4 @@ imageio==2.2.0
 Pillow==4.2.0
 psycopg2==2.7.1
 requests==2.18.1
-urllib3==1.21.1
+urllib3==1.26.5
